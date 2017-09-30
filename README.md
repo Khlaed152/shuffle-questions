@@ -19,13 +19,16 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
 * bolit
 + plus
-- minus
 
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
++ plus
+* bolit
+- minus
+
 Syntax highlighted code block
 
 # Header 1

@@ -23,6 +23,57 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 |:-------------:|:-------------:|:-------------:|:---------------------------------------:|
 |colorcolorcolor|#F00|string|color text elementselementselementselementselements|
 
+```html
+
+<div class="shuffle-questions">
+        <div class="center">
+            <button class="button start-time">Start Time</button>
+        </div>
+        <div class="question">
+            <div class="control-data">
+                <div class="count-questions">
+                    <div class="title">Questions Number</div>
+                    <div class="content">
+                        <span class="count-all"></span>
+                        <span class="count-now"></span>
+                    </div>
+                </div>
+                <div class="count-answers">
+                    <div class="correct">
+                        <div class="title">
+                            <img src="imgs/correct.png"> 
+                        </div>
+                        <div class="content">0</div>
+                    </div>
+                    <div class="wrong">
+                        <div class="title">
+                            <img src="imgs/wrong.png">
+                        </div>     
+                        <div class="content">0</div>
+                    </div>
+                </div>
+                <div class="time-all-questions">
+                    <div class="title">Time All Questions</div>
+                    <div class="content"><span class="hours">00</span>:<span class="mins">00</span>:<span class="seconds">00</span></div>
+                </div>
+                <div class="time-alone-question">
+                    <div class="title">Time Question Now</div>
+                    <div class="content">
+                        <span class="mins">00</span>:<span class="seconds">00</span>
+                    </div>
+                </div>
+            </div> <!-- End Control Data -->
+            <div class="wrapper-questions">
+                <div class="viewport-questions"></div> <!-- End Parent Questions -->
+                <div class="footer-question">
+                    <button class="button accept button-large">Confirm</button>
+                </div> <!-- End Footer Questions -->
+            </div> <!-- End Wrapper -->
+        </div> <!-- End Questions -->
+    </div> <!-- End Shuffle Questions -->
+
+```
+
 ```javascript
 var questions = [
   ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],

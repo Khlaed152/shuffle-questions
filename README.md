@@ -1,8 +1,8 @@
-## shuffle-questions
+# shuffle-questions
 
-You can use the [editor on GitHub](https://github.com/Khlaed152/shuffle-questions/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+this library can you help on shuffle questions for any exam in your site, and also exist many additions, edit in data.
 
 ### Markdown
 

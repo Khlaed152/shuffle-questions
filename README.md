@@ -17,7 +17,7 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
 // comment
 
-` puts 'hello world' test`
+` puts 1.asd 2.asdasd 'hello world' test`
 
 ### Markdown
 

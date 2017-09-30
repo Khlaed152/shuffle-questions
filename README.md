@@ -15,6 +15,12 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 > 
 > this library can you help on shuffle questions for any **exam** in *your site*.
 
+// comment
+
+* bolit
++ plus
+- minus
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

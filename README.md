@@ -23,6 +23,21 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 |:-------------:|:-------------:|:-------------:|:---------------------------------------:|
 |colorcolorcolor|#F00|string|color text elementselementselementselementselements|
 
+```javascript
+var questions = [
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
+  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111']
+];
+
+$('.shuffle-questions').shuffleQuestions({
+   questions: questions
+});
+
+```
 
 ```markdown
 1. asd 

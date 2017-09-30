@@ -1,0 +1,204 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.shuffle-questions {
+    margin: 50px 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Arial'
+}
+.shuffle-questions .center {
+    text-align: center;
+}
+.shuffle-questions .button {
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+    display: inline-block;
+    padding: 1rem 2rem;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #099b8e;
+    color: #FFF;
+    cursor: pointer;
+}
+.shuffle-questions .button.button-large {
+    padding: 1.3rem 3rem
+}
+.shuffle-questions .button:hover {
+    background-color: #1db2a3;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.shuffle-questions .question {
+    margin-top: 30px;
+    background-color: #FFF;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+    border: 1px solid #f9f9f9;
+    padding: 10px;
+}
+/* Start Style Control Data */
+
+.shuffle-questions .question .control-data {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+.shuffle-questions .question .control-data > div {
+    width: 25%;
+    text-align: center;
+}
+.shuffle-questions .question .control-data > div > .title {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.shuffle-questions .question .control-data > div .content {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #666;
+    font-family: Arial, Verdana, Tahoma;
+    color: #159f92
+}
+.shuffle-questions .question .control-data .count-answers {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.shuffle-questions .question .control-data .count-answers > div {
+    margin: 0 20px;
+}
+.shuffle-questions .question .control-data .count-answers > div img {
+    max-width: 25px;
+}
+@media (max-width: 992px) {
+    .shuffle-questions .question .control-data > div {
+        margin-bottom: 30px;
+    }
+}
+/************************************************************************************************************************/
+/* Start Style Wrapper Questions */
+
+.shuffle-questions .question .wrapper-questions {
+    margin-top: 10px;
+    padding: 12px;
+    border: 1px solid #f2f2f2;
+    position: relative;
+}
+.shuffle-questions .question .viewport-questions {
+    background-color: #fbfbfb;
+    padding: 12px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+/* smooth Moving 
+***********************************************************************************/
+
+.shuffle-questions .question .viewport-questions .starting,
+.shuffle-questions .question .viewport-questions .ending {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    font-size: 30px;
+    cursor: default;
+    background-color: #099b8e;
+    color: #FFF;
+}
+.shuffle-questions .question .viewport-questions.slideLeft {
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0;
+}
+.shuffle-questions .question .viewport-questions.slideLeft > div {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-right: -4px;
+}
+.shuffle-questions .question .viewport-questions.scale > div:not(.starting) {
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    transform: scale(0);
+}
+.hideScale {
+    -webkit-transform: scale(0) !important;
+    -moz-transform: scale(0) !important;
+    transform: scale(0) !important;
+}
+.showScale {
+    -webkit-transform: scale(1) !important;
+    -moz-transform: scale(1) !important;
+    transform: scale(1) !important;
+}
+.shuffle-questions .question .viewport-questions .question-text {
+    border-bottom: 2px solid #3498db;
+    margin-bottom: 30px;
+}
+.shuffle-questions .question .viewport-questions .question-text .text {
+    font-size: 1.5em;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-top: 0;
+}
+.shuffle-questions .question .viewport-questions .answers {
+    padding: 0 20px;
+}
+.shuffle-questions .question .viewport-questions .answers .answer {
+    margin-bottom: 15px;
+}
+.shuffle-questions .question .viewport-questions .answers .answer:not(.active) span:hover {
+    color: #159f92;
+}
+.shuffle-questions .question .viewport-questions .answers .answer span {
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    color: #555;
+    font-size: 16px;
+    padding: 10px;
+    line-height: 1.7;
+}
+.shuffle-questions .question .viewport-questions .answers .answer span .icon {
+    width: 25px !important;
+    position: relative;
+    top: -1px;
+    margin-right: 10px;
+}
+.shuffle-questions .button,
+.shuffle-questions .question .viewport-questions .answers .answer span {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.shuffle-questions .question .viewport-questions .answers .answer img {
+    max-width: 200px;
+    vertical-align: middle;
+}
+/* Class Active */
+.shuffle-questions .question .viewport-questions .answers .answer.active span {
+    background-color: #555;
+    font-weight: 500;
+    color: #FFF;
+}
+.shuffle-questions .question .wrapper-questions .footer-question {
+    overflow: hidden;
+    margin-top: 20px;
+}
+.shuffle-questions .question .wrapper-questions .footer-question .accept {
+    display: block;
+    width: 100%;
+}
+
+/************************************************************************************************************************/

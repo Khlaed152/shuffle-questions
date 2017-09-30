@@ -16,15 +16,8 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 > this library can you help on shuffle questions for any **exam** in *your site*.
 
 // comment
-1. questions = [
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111']
-],
-2. List
+
+` puts 'hello world' test`
 
 ### Markdown
 

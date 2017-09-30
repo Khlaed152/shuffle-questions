@@ -17,11 +17,12 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
 // comment
 
-`puts 1.asd 2.asdasd 'hello world' test`
-`
-1.asd 
-2.asdasd 
-`
+`This Is inline`
+
+|Option|Default|Type|Description|
+|:-------------:|:-------------:|:-------------:|:---------------------------------------:|
+|color|#F00|string|color text elements|
+
 
 ```markdown
 1. asd 

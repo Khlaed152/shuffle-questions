@@ -17,7 +17,15 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
 // comment
 
-` puts 1.asd 2.asdasd 'hello world' test`
+`puts 1.asd 2.asdasd 'hello world' test`
+`
+1.asd 
+2.asdasd 
+`
+```
+1.asd 
+2.asdasd 
+```
 
 ### Markdown
 

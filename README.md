@@ -21,7 +21,7 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
 
 |Option|Default|Type|Description|
 |:-------------:|:-------------:|:-------------:|:---------------------------------------:|
-|color|#F00|string|color text elements|
+|colorcolorcolor|#F00|string|color text elementselementselementselementselements|
 
 
 ```markdown

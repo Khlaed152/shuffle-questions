@@ -143,7 +143,7 @@ to installation :
 * you must be placed the question in index 0 in each array.
 * you must be placed the correct answer in index 1 in each array.
 * You must type at least three questions.
-* `questionAmount: 2` Also this value should not be less than 2.
+* *questionAmount: 2* Also this value should not be less than 2.
 * you can start time by click any buttons containing a class (start time) inside the large class (shuffle-questions).
 ```
 

@@ -146,6 +146,7 @@ to installation :
 3. You must type at least three questions.
 4. `questionAmount: 2` Also this value should not be less than 2.
 5. you can start time by click any buttons containing a class (start time) inside the large class (shuffle-questions).
+6. It should not be a recurring question with the same formula.
 ```
 
 ## Settings
@@ -160,8 +161,28 @@ to installation :
 |` delayAfterAnswer` | `500` | number | Waiting time after answer until another question comes, Calculated is milliseconds |
 |` smoothSlide` | `fade` | string | mode locomotion between questions |
 |` durationEffect` | `400` | number | locomotion duration  between questions, Calculated is milliseconds |
-|` Option` | `Default` | Type | Description |
-|` Option` | `Default` | Type | Description |
-|` Option` | `Default` | Type | Description |
-|` Option` | `Default` | Type | Description |
-|` Option` | `Default` | Type | Description |
+|` callBackQues` | `null` | function | Call back function after answer for each question |
+|` finishTime` | `null` | function | after the test is complete you can do anything rather than show the end element |
+|` done` | `null` | function |  Call back function after answer for each question |
+|` textStart` | `Click Start Time To Start` | string | Text element starting |
+|` textEnd` | `The Test Finished` | string | Text element ending |
+
+### Note: 
+> if you make option `timeAllQuestions`: 'default' 
+> well this value is `timeOneQuestion` * `questionAmount`
+---
+##### `example`
+```javascript
+$('.shuffle-questions').shuffleQuestions({
+    timeOneQuestion: 10, // 15s every question
+    questionAmount: 4 // you choose four questions
+    timeAllQuestions: 40 // 60s time full test
+});
+```
+---
+
+## Feedback
+`Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com)
+`Facebook :` [Khaled M Sharaf El Din](https://www.facebook.com/khaled.sharaf152)
+
+---

@@ -1,31 +1,61 @@
-## shuffle-questions
+## Shuffle Question .js
+![logo](https://s25.postimg.org/nf3d1axu7/if_Button_Shuffle_72916.png "Shuffle Question") `jquery-shuffle-question.js`
 
-v 1.0
+---
 
-You can from here >> [Show Demo](http://shuffle-questions.cf/) .
+* **v 1.0**
+* [Page Demo](http://shuffle-questions.cf)
+* [Download](https://github.com/IonDen/ion.rangeSlider/archive/master.zip)
 
 ## Description
-===============
-* this library can you help on shuffle questions for any exam in your site, and also exist many additions, edit in data.
-* this library can you help on shuffle questions for any exam in your site, and also exist many additions, edit in data.
 
-> ### this library can you help on shuffle questions for any exam in your site, and also exist many additions, edit in data.
->
-> this library can you help on shuffle questions for any exam in your site
-> 
-> this library can you help on shuffle questions for any **exam** in *your site* _your site_.
+* you can design exams by the **switch random** to questions and answers.
+* you must write elements html and import file css, js.
+* you can create a competition in programming scope, tests intelligence or registration fees in any site.
 
-// comment
+![](https://s25.postimg.org/fwygh51tb/shuffle.jpg)
 
-`This Is inline`
+## Features
 
-|Option|Default|Type|Description|
-|:-------------:|:-------------:|:-------------:|:---------------------------------------:|
-|colorcolorcolor|#F00|string|color text elementselementselementselementselements|
+* From of the most important features of this library is that it does not exist in in the same design, quality and may not exist at all.
+* Quick responsive.
+* Responsive design.
+* Easy installation and running.
+* Easy modify code js, css and html.
+* Easy modify design.
+* You can put questions to infinity.
+* 3 is Fewer the answers.
+* 8 is more the answers.
+* You can place the question as a picture and text words.
+* also can place the answers as a picture and text words.
+* put for each question a number counter you specify by yourself.
+* You can set a counter for all questions.
+* You can choose a specific number of questions to show to the laboratory and arrange it randomly.
+* The number questions selected for the test is shown to the laboratory to know how many other questions it has at the end of the test.
+* The correct answers and wrong answers is displayed.
+* You can control many things you will know in the explanation, God willing.
+
+
+## Dependencies
+
+* [jQuery-3.2.1.js](http://jquery.com/download/)
+
+## Usage
+
+Add the following libraries to the page:
+* jQuery
+* shuffle-questions-1.0.min.js
+
+Add the following stylesheets to the page:
+* [normalize.css](http://necolas.github.io/normalize.css/) (optional)
+* shuffle-questions-1.0.min.css
+
+## Initialisation
+
+copy these elements in your page without delete any element or class but you can add any element:
 
 ```html
-
-<div class="shuffle-questions">
+    <div class="shuffle-questions">
         <div class="center">
             <button class="button start-time">Start Time</button>
         </div>
@@ -63,92 +93,24 @@ You can from here >> [Show Demo](http://shuffle-questions.cf/) .
                     </div>
                 </div>
             </div> <!-- End Control Data -->
+            
             <div class="wrapper-questions">
+               
                 <div class="viewport-questions"></div> <!-- End Parent Questions -->
+                
                 <div class="footer-question">
                     <button class="button accept button-large">Confirm</button>
                 </div> <!-- End Footer Questions -->
+                
             </div> <!-- End Wrapper -->
+            
         </div> <!-- End Questions -->
     </div> <!-- End Shuffle Questions -->
-
 ```
 
-```javascript
-var questions = [
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111']
-];
+to installation : 
 
-$('.shuffle-questions').shuffleQuestions({
-   questions: questions
-});
-
+```js
+    var s = 'asd,
+        d = 200;    
 ```
-
-```markdown
-1. asd 
-2. asdasd 
-```
-
-
-```
-1. asd 
-2. asdasd 
-```
-
-````
-1. asd 
-2. asdasd 
-````
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-+ plus
-* bolit
-- minus
-
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. questions = [
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111'],
-  ['ques1 ', 'answer1', 'answer11', 'answer111', 'answer1111']
-],
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Khlaed152/shuffle-questions/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-### Support or Contact
-### Support or Contact
-### Support or Contact
-### Support or Contact
-### Support or Contact
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.

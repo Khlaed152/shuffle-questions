@@ -1,5 +1,6 @@
-## Shuffle Question .js
-![logo](https://s25.postimg.org/nf3d1axu7/if_Button_Shuffle_72916.png "Shuffle Question") `jquery-shuffle-question.js`
+## Shuffle Questions
+
+![logo](https://s25.postimg.org/nf3d1axu7/if_Button_Shuffle_72916.png "Shuffle Question") `shuffle-questions.js`
 
 ---
 

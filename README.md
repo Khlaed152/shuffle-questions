@@ -184,6 +184,44 @@ $('.shuffle-questions').shuffleQuestions({
 });
 ```
 ---
+---
+
+## Examples on how to write the questions:
+
+```javascript
+    var myQuestion = [
+        // Normal Question !
+        
+        ['Question 1 ?', 'answer 1', 'answer 11', 'answer 111', 'answer 1111'],
+        ['Question 2 ?', 'answer 2', 'answer 22', 'answer 222', 'answer 2222'],
+        
+        // Put a image before and after answers !
+
+        ['Question 3 ? <img src="imgs/img02.jpg">', 'answer 3 <img src="imgs/img01.jpg">', 'answer 33 <img src="imgs/img02.jpg">', 'answer 333 <img src="imgs/img03.jpg">', 'answer 3333 <img src="imgs/img04.jpg">'],
+        ['Question 4 ? <img src="imgs/img03.jpg">', '<img src="imgs/img01.jpg"> answer 4', '<img src="imgs/img02.jpg"> answer 44', '<img src="imgs/img03.jpg"> answer 444', '<img src="imgs/img04.jpg"> answer 4444'],
+        
+        // Put a image in question before text!
+        
+        ['<img src="imgs/img03.jpg"> Question 5 ?', 'answer 5', 'answer 55', 'answer 555', 'answer 5555'],
+        ['<img src="imgs/img04.jpg"> Question 6 ?', 'answer 6', 'answer 66', 'answer 666', 'answer 6666'],
+        
+        // Put a image in question after text !
+        
+        ['<img src="imgs/img01.jpg"> Question 7 ?', '<img src="imgs/img01.jpg">', '<img src="imgs/img02.jpg">', '<img src="imgs/img03.jpg">', '<img src="imgs/img04.jpg">'],
+        ['<img src="imgs/img04.jpg"> Question 8 ?', '<img src="imgs/img01.jpg">', '<img src="imgs/img02.jpg">', '<img src="imgs/img03.jpg">', '<img src="imgs/img04.jpg">'],
+        
+        // Put a image in answers, Normal question
+        
+        ['Question 9 ?', '<img src="imgs/img01.jpg">', '<img src="imgs/img02.jpg">', '<img src="imgs/img03.jpg">', '<img src="imgs/img04.jpg">'],
+        ['Question 10 ?', '<img src="imgs/img01.jpg">', '<img src="imgs/img02.jpg">', '<img src="imgs/img03.jpg">', '<img src="imgs/img04.jpg">'],
+        
+        // put a image in question only, normal answers
+        
+        ['<img src="imgs/img01.jpg">', 'answer 11', 'answer 11 11', 'answer 11 11 11', 'answer 11 11 11 11'],
+        ['<img src="imgs/img04.jpg">', 'answer 12', 'answer 12 12', 'answer 12 12 12', 'answer 12 12 12 12']
+    ];
+```
+---
 
 ## Feedback
 `Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com) <br><br>

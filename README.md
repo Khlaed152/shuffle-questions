@@ -13,6 +13,9 @@
 * you can design exams by the **switch random** to questions and answers.
 * you must type elements html and import file css, js.
 * you can create a competition in programming scope, tests intelligence or registration fees in any site.
+* There is no recurring question.
+* Random mixing for answers so that each time the answer comes in a different place.
+* At the end of the test, you can get the laboratory data, how much a correct answer, the time it took to answer the questions, how many questions were answered, and so on.
 
 [![](https://s25.postimg.org/fwygh51tb/shuffle.jpg)](http://shuffle-questions.cf "Show Demo")
 

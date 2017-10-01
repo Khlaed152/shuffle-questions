@@ -174,7 +174,8 @@ to installation :
 ### Note: 
 > if you make option `timeAllQuestions`: 'default' <br>
 > well this value is `timeOneQuestion` * `questionAmount`
----
+
+
 ##### `example:`
 ```javascript
 $('.shuffle-questions').shuffleQuestions({
@@ -183,10 +184,10 @@ $('.shuffle-questions').shuffleQuestions({
     timeAllQuestions: 'default' // == 40s time full test
 });
 ```
----
----
 
 ## Examples on how to write the questions:
+
+    This example is exist in the [Demo](http://shuffle-questions.cf).
 
 ```javascript
     var myQuestion = [

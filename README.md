@@ -187,7 +187,7 @@ $('.shuffle-questions').shuffleQuestions({
 
 ## Examples on how to write the questions:
 
-    This example is exist in the [Demo](http://shuffle-questions.cf).
+This `example` is exist in the [Demo](http://shuffle-questions.cf).
 
 ```javascript
     var myQuestion = [

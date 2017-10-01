@@ -168,10 +168,10 @@ to installation :
 |` textEnd` | `The Test Finished` | string | Text element ending |
 
 ### Note: 
-> if you make option `timeAllQuestions`: 'default' 
+> if you make option `timeAllQuestions`: 'default' <br>
 > well this value is `timeOneQuestion` * `questionAmount`
 ---
-##### `example`
+##### `example:`
 ```javascript
 $('.shuffle-questions').shuffleQuestions({
     timeOneQuestion: 10, // 15s every question
@@ -182,7 +182,7 @@ $('.shuffle-questions').shuffleQuestions({
 ---
 
 ## Feedback
-`Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com)
+`Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com) <br>
 `Facebook :` [Khaled M Sharaf El Din](https://www.facebook.com/khaled.sharaf152)
 
 ---

@@ -5,7 +5,7 @@
 
 * **v 1.0**
 * [Page Demo](http://shuffle-questions.cf)
-* [Download](https://github.com/IonDen/ion.rangeSlider/archive/master.zip)
+* [Download](https://github.com/Khlaed152/shuffle-questions/archive/master.zip)
 
 ## Description
 
@@ -110,7 +110,7 @@ copy these elements in your page without delete any element or class but you can
 
 to installation : 
 
-```js
-    var s = 'asd,
+```javascript
+    var s = 'asd',
         d = 200;    
 ```

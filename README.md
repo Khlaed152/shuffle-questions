@@ -176,13 +176,13 @@ to installation :
 $('.shuffle-questions').shuffleQuestions({
     timeOneQuestion: 10, // 15s every question
     questionAmount: 4 // you choose four questions
-    timeAllQuestions: 40 // 60s time full test
+    timeAllQuestions: 'default' // == 40s time full test
 });
 ```
 ---
 
 ## Feedback
-`Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com) <br>
+`Gmail :` [khaled.sharaf152.gmail.com](mailto:khaled.sharaf152.gmail.com) <br><br>
 `Facebook :` [Khaled M Sharaf El Din](https://www.facebook.com/khaled.sharaf152)
 
 ---

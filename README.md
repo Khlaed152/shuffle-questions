@@ -138,7 +138,7 @@ to installation :
     });
 ```
 
-## Important note:
+# Important note:
 
 ```markdown
 1. you must be placed the question in index 0 in each array.

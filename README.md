@@ -10,7 +10,7 @@
 ## Description
 
 * you can design exams by the **switch random** to questions and answers.
-* you must write elements html and import file css, js.
+* you must type elements html and import file css, js.
 * you can create a competition in programming scope, tests intelligence or registration fees in any site.
 
 ![](https://s25.postimg.org/fwygh51tb/shuffle.jpg)
@@ -110,7 +110,42 @@ copy these elements in your page without delete any element or class but you can
 
 to installation : 
 
-```javascript
-    var s = 'asd',
-        d = 200;    
+```js
+    var myQuestions = [
+        ['Question 1 ?', 'answer 1', 'answer 11', 'answer 111', 'answer 1111', 'answer 11111'],
+        ['Question 2 ?', 'answer 2', 'answer 22', 'answer 222', 'answer 2222', 'answer 22222'],
+        ['Question 3 ?', 'answer 3', 'answer 33', 'answer 333', 'answer 3333', 'answer 33333'],
+        ['Question 4 ?', 'answer 4', 'answer 44', 'answer 444', 'answer 4444', 'answer 44444'],
+        ['Question 5 ?', 'answer 5', 'answer 55', 'answer 555', 'answer 5555', 'answer 55555']
+    ];
+    
+    $('.shuffle-questions').shuffleQuestions({
+        questions: myQuestions,
+        questionAmount: 2, // number
+        timeOneQuestion: 20 // Calculated is seconds
+        // Return Function For Show Result Test
+        
+        done: function () { // call back after finish all question
+            var countCorrent = $('.shuffle-questions').countCorrect(),
+                countWrong = $('.shuffle-questions').countWrong(),
+                timetaken = $('.shuffle-questions').timeTaken();
+            
+            // Also you can Send These Result by Ajax or show any place you specify
+            console.log('Correct Answer : ' + countCorrent);
+            console.log('Wrong Answer : ' + countWrong);
+            console.log('Time Taken : ' + timetaken);
+        },
+    });
 ```
+
+## Important note: 
+```
+* you must be placed the question in index 0 in each array.
+* you must be placed the correct answer in index 1 in each array.
+* You must type at least three questions.
+* `questionAmount: 2` Also this value should not be less than 2.
+* you can start time by click any buttons containing a class (start time) inside the large class (shuffle-questions).
+```
+
+
+

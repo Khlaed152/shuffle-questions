@@ -157,14 +157,14 @@ to installation :
 
 | Option | Default | Type | Description |
 |:--------:|:--------:|:--------:|:--------:|
-| `questions` | `null` | array | This matrix is specific to the questions and has an example at the top |
-|` questionAmount` | `null` | number | write number questions to show in desplay but you can't type less than 2 |
-|` timeOneQuestion` | `15` | number | Time for every One Question and calculated time in seconds |
-|` timeAllQuestions` | `null` | number | Time for all Questions and calculated time in seconds |
+| `questions` | `null` | array | This array is specific to the questions and has an `example at the top` |
+|` questionAmount` | `null` | number | write number questions to show in display but you can't type less than 2 |
+|` timeOneQuestion` | `15` | number | Time for every one question and calculated time in `seconds` |
+|` timeAllQuestions` | `null` | number | Time for all questions and calculated time in `seconds` |
 |` btnAccept` | `true` | boolean | if this value is true show button confirm and if value is false hide button confirm and is answer automatic |
-|` delayAfterAnswer` | `500` | number | Waiting time after answer until another question comes, Calculated is milliseconds |
-|` smoothSlide` | `fade` | string | mode locomotion between questions |
-|` durationEffect` | `400` | number | locomotion duration  between questions, Calculated is milliseconds |
+|` delayAfterAnswer` | `500` | number | Waiting time after answer until another question comes, Calculated is `milliseconds` |
+|` smoothSlide` | `fade` | string | mode locomotion between questions, this is option you can give values following `"fade"`, `"slideLeft"`, `"scale"` |
+|` durationEffect` | `400` | number | locomotion duration  between questions, Calculated is `milliseconds` |
 |` callBackQues` | `null` | function | Call back function after answer for each question |
 |` finishTime` | `null` | function | after the test is complete you can do anything rather than show the end element |
 |` done` | `null` | function |  Call back function after answer for each question |
